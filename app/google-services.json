@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "942933656848",
+    "project_id": "aplikasi-donasi-makanan",
+    "storage_bucket": "aplikasi-donasi-makanan.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:942933656848:android:c2dd13c4f43a88bf089195",
+        "android_client_info": {
+          "package_name": "com.project.nvl.aplikasidonasimakanan"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8_PVSbh2RoYCK2SYpAr8V24cp9zeIsLA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
