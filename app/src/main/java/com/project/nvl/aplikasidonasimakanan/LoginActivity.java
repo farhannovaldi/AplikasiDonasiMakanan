@@ -57,6 +57,7 @@ public class LoginActivity extends AppCompatActivity {
                             Toast.makeText(LoginActivity.this, "Login Berhasil", Toast.LENGTH_SHORT).show();
                             Intent masuk = new Intent(LoginActivity.this, MainActivity.class);
                             startActivity(masuk);
+                            finish();
                         } else {
                             Toast.makeText(LoginActivity.this, "Password Salah", Toast.LENGTH_SHORT).show();
                         }
@@ -77,5 +78,6 @@ public class LoginActivity extends AppCompatActivity {
     private void navigateToRegister() {
         Intent intent = new Intent(LoginActivity.this, RegisterActivity.class);
         startActivity(intent);
+
     }
 }

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".BantuanFragment">
+
+    <TextView
+        android:id="@+id/headerText"
+        android:layout_width="199dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/panduan_donasi"
+        android:textColor="#FFFFF0"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/panduanDonasiText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TextSizeCheck" />
+
+    <TextView
+        android:id="@+id/panduanDonasiText"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/panduan_donasi_n_n1_persiapkan_makanan_n_pastikan_makanan_dalam_kondisi_segar_dan_aman_untuk_dikonsumsi_n_gunakan_wadah_yang_bersih_dan_tertutup_untuk_menyimpan_makanan_n_n2_identifikasi_penerima_donasi_n_cari_organisasi_atau_individu_yang_membutuhkan_donasi_makanan_n_hubungi_mereka_untuk_mengetahui_preferensi_makanan_dan_waktu_pengambilan_n_n3_penyumbangan_makanan_n_sediakan_makanan_yang_telah_disiapkan_n_pastikan_makanan_dalam_wadah_yang_higienis_n_n4_pengantaran_n_antarkan_makanan_sesuai_kesepakatan_dengan_penerima_donasi_n_pastikan_pengantaran_aman_dan_tepat_waktu_n_n5_dokumentasikan_donasi_n_catat_jumlah_makanan_yang_disumbangkan_dan_detail_pengantaran_n_n6_dampak_sosial_n_pantau_dan_dokumentasikan_dampak_sosial_positif_dari_donasi_anda_n_bagikan_cerita_sukses_untuk_menginspirasi_orang_lain_n_nterima_kasih_atas_kontribusi_anda_dalam_menyumbangkan_makanan_kepada_mereka_yang_membutuhkan"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/headerText" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Aplikasi Donasi Makanan</string>
+    <string name="beranda">Beranda</string>
+    <string name="bantuan">Bantuan</string>
+    <string name="laporkan_masalah">Laporkan Masalah</string>
+    <string name="akun">Akun</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="panduan_donasi">Panduan Donasi</string>
+    <string name="panduan_donasi_n_n1_persiapkan_makanan_n_pastikan_makanan_dalam_kondisi_segar_dan_aman_untuk_dikonsumsi_n_gunakan_wadah_yang_bersih_dan_tertutup_untuk_menyimpan_makanan_n_n2_identifikasi_penerima_donasi_n_cari_organisasi_atau_individu_yang_membutuhkan_donasi_makanan_n_hubungi_mereka_untuk_mengetahui_preferensi_makanan_dan_waktu_pengambilan_n_n3_penyumbangan_makanan_n_sediakan_makanan_yang_telah_disiapkan_n_pastikan_makanan_dalam_wadah_yang_higienis_n_n4_pengantaran_n_antarkan_makanan_sesuai_kesepakatan_dengan_penerima_donasi_n_pastikan_pengantaran_aman_dan_tepat_waktu_n_n5_dokumentasikan_donasi_n_catat_jumlah_makanan_yang_disumbangkan_dan_detail_pengantaran_n_n6_dampak_sosial_n_pantau_dan_dokumentasikan_dampak_sosial_positif_dari_donasi_anda_n_bagikan_cerita_sukses_untuk_menginspirasi_orang_lain_n_nterima_kasih_atas_kontribusi_anda_dalam_menyumbangkan_makanan_kepada_mereka_yang_membutuhkan">Panduan Donasi:\n\n1. Persiapkan Makanan:\n - Pastikan makanan dalam kondisi segar dan aman untuk dikonsumsi.\n - Gunakan wadah yang bersih dan tertutup untuk menyimpan makanan.\n\n2. Identifikasi Penerima Donasi:\n - Cari organisasi atau individu yang membutuhkan donasi makanan.\n - Hubungi mereka untuk mengetahui preferensi makanan dan waktu pengambilan.\n\n3. Penyumbangan Makanan:\n - Sediakan makanan yang telah disiapkan.\n - Pastikan makanan dalam wadah yang higienis.\n\n4. Pengantaran:\n - Antarkan makanan sesuai kesepakatan dengan penerima donasi.\n - Pastikan pengantaran aman dan tepat waktu.\n\n5. Dokumentasikan Donasi:\n - Catat jumlah makanan yang disumbangkan dan detail pengantaran.\n\n6. Dampak Sosial:\n - Pantau dan dokumentasikan dampak sosial positif dari donasi Anda.\n - Bagikan cerita sukses untuk menginspirasi orang lain.\n\nTerima kasih atas kontribusi Anda dalam menyumbangkan makanan kepada mereka yang membutuhkan.</string>
 </resources>

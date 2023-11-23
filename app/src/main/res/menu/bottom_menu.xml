@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/frg_home"
+        android:icon="@drawable/ic_home"
+        android:title="@string/beranda"/>
+    <item
+        android:id="@+id/frg_book"
+        android:icon="@drawable/ic_book"
+        android:title="@string/bantuan"/>
+    <item
+        android:id="@+id/frg_help"
+        android:icon="@drawable/ic_help"
+        android:title="@string/laporkan_masalah"/>
+    <item
+        android:id="@+id/frg_account"
+        android:icon="@drawable/ic_account"
+        android:title="@string/akun"/>
+</menu>
