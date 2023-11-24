@@ -24,7 +24,7 @@ public class HomeFragment extends Fragment {
         View view = inflater.inflate(R.layout.fragment_home, container, false);
 
         if (getChildFragmentManager().findFragmentById(R.id.fragment_container) == null) {
-            displayFragment(new DaftarMakananFragment());
+            displayFragment(new DaftarPenyumbangFragment());
         }
 
         AppCompatImageButton btnPopupMenu = view.findViewById(R.id.btnPopupMenu);
@@ -46,10 +46,7 @@ public class HomeFragment extends Fragment {
         popupMenu.setOnMenuItemClickListener(new PopupMenu.OnMenuItemClickListener() {
             @Override
             public boolean onMenuItemClick(MenuItem item) {
-                if (item.getItemId() == R.id.action_daftar_makanan) {
-                    displayFragment(new DaftarMakananFragment());
-                    return true;
-                } else if (item.getItemId() == R.id.action_daftar_penyumbang) {
+                if (item.getItemId() == R.id.action_daftar_penyumbang) {
                     displayFragment(new DaftarPenyumbangFragment());
                     return true;
                 } else if (item.getItemId() == R.id.action_dokumentasi) {

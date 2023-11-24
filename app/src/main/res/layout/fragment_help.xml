@@ -26,13 +26,15 @@
         android:id="@+id/laporanMasalahInput"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@+id/headerText"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
         android:layout_margin="16dp"
-        android:hint="Deskripsi Masalah"
+        android:layout_marginTop="80dp"
         android:background="#FFFFFF"
-        android:padding="12dp" />
+        android:hint="Deskripsi Masalah"
+        android:padding="12dp"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/headerText" />
 
     <Button
         android:id="@+id/kirimLaporanButton"

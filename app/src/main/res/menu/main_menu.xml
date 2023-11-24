@@ -1,11 +1,5 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
-        android:id="@+id/action_daftar_makanan"
-        android:title="Daftar Makanan"
-        android:orderInCategory="100"
-        android:icon="@drawable/ic_daftarmakanan"/>
-
-    <item
         android:id="@+id/action_dokumentasi"
         android:title="Dokumentasi"
         android:orderInCategory="101"

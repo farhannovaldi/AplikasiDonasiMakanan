@@ -69,7 +69,7 @@ public class HelpFragment extends Fragment {
             DatabaseReference database = FirebaseDatabase.getInstance().getReference();
             DatabaseReference laporanRef = database.child("laporan_masalah").child(userId).push();
             laporanRef.setValue(report);
-
+            laporanMasalahInput.setText("");
             showToast("Laporan berhasil dikirim");
         } else {
             showToast("Silakan login terlebih dahulu");
