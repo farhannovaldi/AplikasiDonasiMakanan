@@ -39,7 +39,7 @@ public class AkunFragment extends Fragment {
         textTelepon = view.findViewById(R.id.textTelepon);
         textAlamat = view.findViewById(R.id.textAlamat);
         textEmail = view.findViewById(R.id.textEmail);
-        btnLogout = view.findViewById(R.id.btnLogout); // Tambahkan ini
+        btnLogout = view.findViewById(R.id.btnLogout);
 
         FirebaseUser currentUser = FirebaseAuth.getInstance().getCurrentUser();
 
@@ -53,26 +53,24 @@ public class AkunFragment extends Fragment {
                         Log.d("AkunFragment", "DataSnapshot: " + snapshot.getValue());
 
                         String nama = snapshot.child("nama").getValue(String.class);
-                        String email = currentUser.getEmail();
-
-                        textNama.setText("Nama: " + nama);
-                        textEmail.setText("Email: " + email);
-
-                        // Mengambil data telepon dan alamat dari database
                         String telepon = snapshot.child("telepon").getValue(String.class);
                         String alamat = snapshot.child("alamat").getValue(String.class);
+                        String email = currentUser.getEmail();
 
-                        Log.d("AkunFragment", "Telepon: " + telepon);
-                        Log.d("AkunFragment", "Alamat: " + alamat);
+                        textNama.setText("Nama : " + nama);
+                        textEmail.setText("Email : " + email);
+                        textAlamat.setText("Alamat : "+alamat);
+                        textTelepon.setText("Nomor Hp : "+telepon);
+
+                        // Mengambil data telepon dan alamat dari database
+
+
 
                     }
                 }
 
-
-
                 @Override
                 public void onCancelled(@NonNull DatabaseError error) {
-                    // Handle kegagalan baca data
                 }
             });
         }
