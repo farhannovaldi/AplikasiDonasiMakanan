@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_daftar_makanan"
+        android:title="Daftar Makanan"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_daftarmakanan"/>
+
+    <item
+        android:id="@+id/action_dokumentasi"
+        android:title="Dokumentasi"
+        android:orderInCategory="101"
+        android:icon="@drawable/ic_dokumentasi"/>
+
+    <item
+        android:id="@+id/action_peta"
+        android:title="Peta"
+        android:orderInCategory="102"
+        android:icon="@drawable/ic_map"/>
+
+    <item
+        android:id="@+id/action_daftar_penyumbang"
+        android:title="Daftar Penyumbang"
+        android:orderInCategory="103"
+        android:icon="@drawable/ic_daftar"/>
+</menu>
