@@ -2,20 +2,17 @@ package com.project.nvl.aplikasidonasimakanan;
 
 import android.os.Bundle;
 import android.view.MenuItem;
-
-import com.google.android.material.bottomnavigation.BottomNavigationView;
-
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
+import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class MainActivity extends AppCompatActivity implements BottomNavigationView.OnItemSelectedListener {
-
+    private boolean isAppClosed = false;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
 
         loadFragment(new HomeFragment());
 
@@ -23,7 +20,12 @@ public class MainActivity extends AppCompatActivity implements BottomNavigationV
         navigationView.setOnItemSelectedListener(this);
     }
 
+
     @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        isAppClosed = true;
+    }
     public boolean onNavigationItemSelected(@NonNull MenuItem item) {
         Fragment fragment = null;
 
@@ -42,6 +44,7 @@ public class MainActivity extends AppCompatActivity implements BottomNavigationV
         return loadFragment(fragment);
     }
 
+
     private boolean loadFragment(Fragment fragment) {
         if (fragment != null) {
             getSupportFragmentManager()
@@ -51,5 +54,8 @@ public class MainActivity extends AppCompatActivity implements BottomNavigationV
             return true;
         }
         return false;
+    }
+    public boolean isAppClosed() {
+        return isAppClosed;
     }
 }
