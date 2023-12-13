@@ -1,16 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
+
     <item
         android:id="@+id/action_dokumentasi"
-        android:title="Dokumentasi"
         android:orderInCategory="101"
-        android:icon="@drawable/ic_dokumentasi"/>
-
+        android:icon="@drawable/ic_dokumentasi"
+        android:title="Dokumentasi"/>
     <item
         android:id="@+id/action_peta"
         android:title="Peta"
         android:orderInCategory="102"
         android:icon="@drawable/ic_map"/>
-
     <item
         android:id="@+id/action_daftar_penyumbang"
         android:title="Daftar Penyumbang"
