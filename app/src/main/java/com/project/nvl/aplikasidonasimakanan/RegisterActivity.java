@@ -81,7 +81,6 @@ public class RegisterActivity extends AppCompatActivity {
                 if (task.isSuccessful() && task.getResult() != null) {
                     FirebaseUser firebaseUser = task.getResult().getUser();
                     if (firebaseUser != null) {
-                        // Hanya menyimpan email ke dalam database, informasi lainnya akan disimpan di database
                         saveUserToDatabase(firebaseUser.getUid(), email, nama, telepon, alamat);
 
                         showToast("Registrasi berhasil");

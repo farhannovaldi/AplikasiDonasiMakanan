@@ -66,8 +66,8 @@ public class MainActivity extends AppCompatActivity implements BottomNavigationV
             } else if (item.getItemId() == R.id.action_dokumentasi) {
                 loadFragment(new DokumentasiFragment());
                 return true;
-            } else if (item.getItemId() == R.id.action_peta) {
-                loadFragment(new MapsFragment());
+            } else if (item.getItemId() == R.id.action_daftar) {
+                loadFragment(new DaftarDonasiFragment());
                 return true;
             } else {
                 return false;

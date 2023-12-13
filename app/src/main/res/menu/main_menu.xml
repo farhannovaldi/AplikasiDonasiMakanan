@@ -6,14 +6,16 @@
         android:orderInCategory="101"
         android:icon="@drawable/ic_dokumentasi"
         android:title="Dokumentasi"/>
-    <item
-        android:id="@+id/action_peta"
-        android:title="Peta"
-        android:orderInCategory="102"
-        android:icon="@drawable/ic_map"/>
+
     <item
         android:id="@+id/action_daftar_penyumbang"
         android:title="Daftar Penyumbang"
         android:orderInCategory="103"
         android:icon="@drawable/ic_daftar"/>
+
+    <item
+        android:id="@+id/action_daftar"
+        android:title="Daftar Donasi"
+        android:orderInCategory="102"
+        android:icon="@drawable/ic_map"/>
 </menu>
