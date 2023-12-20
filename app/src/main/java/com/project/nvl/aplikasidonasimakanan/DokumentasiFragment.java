@@ -18,7 +18,7 @@ public class DokumentasiFragment extends Fragment {
     private String mParam2;
 
     private RecyclerView.LayoutManager layoutManager;
-    private DokumentasiAdapter dokumentasiAdapter; // Perubahan ini
+    private DokumentasiAdapter dokumentasiAdapter;
 
     public DokumentasiFragment() {
         // Required empty public constructor
