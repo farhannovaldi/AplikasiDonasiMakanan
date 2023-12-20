@@ -6,11 +6,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-/**
- * A simple {@link Fragment} subclass.
- * Use the {@link DokumentasiFragment#newInstance} factory method to
- * create an instance of this fragment.
- */
+
 public class DokumentasiFragment extends Fragment {
 
     private static final String ARG_PARAM1 = "param1";
@@ -20,7 +16,6 @@ public class DokumentasiFragment extends Fragment {
     private String mParam2;
 
     public DokumentasiFragment() {
-        // Required empty public constructor
     }
 
     public static DokumentasiFragment newInstance(String param1, String param2) {

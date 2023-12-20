@@ -1,18 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/bg"
+    android:orientation="vertical"
+    android:gravity="center"
     tools:context=".DaftarPenyumbangFragment">
 
-    <!-- TODO: Update blank fragment layout -->
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:textColor="@color/white"
-        android:textSize="80dp"
-        android:textAlignment="center"
-        android:text="HAIIIIIII PENYUMBANG" />
+        android:id="@+id/headerText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="16dp"
+        android:text="DAFTAR PENYUMBANG"
+        android:textColor="#FFFFF0"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        tools:ignore="TextSizeCheck" />
 
-</FrameLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/list_penyumbang"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+</LinearLayout>
