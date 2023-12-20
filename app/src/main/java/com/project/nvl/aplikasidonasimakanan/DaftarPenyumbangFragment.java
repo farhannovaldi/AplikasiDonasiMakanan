@@ -51,7 +51,7 @@ public class DaftarPenyumbangFragment extends Fragment {
         layoutManager = new LinearLayoutManager(getContext());
 
         // Hubungkan RecyclerView dengan class Adapter
-        adapter = new RecyclerAdapter(); // Sesuaikan dengan constructor RecyclerAdapter yang Anda gunakan
+        adapter = new RecyclerAdapter();
         RecyclerView recyclerView = view.findViewById(R.id.list_penyumbang);
         recyclerView.setLayoutManager(layoutManager);
         recyclerView.setAdapter(adapter);

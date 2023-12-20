@@ -1,14 +1,29 @@
-<!-- fragment_dokumentasi.xml -->
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    android:gravity="center"
     tools:context=".DokumentasiFragment">
 
-    <!-- Ganti dengan teks statis atau elemen UI lainnya -->
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Dokumentasi Fragment" />
+        android:id="@+id/headerText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="16dp"
+        android:text="DOKUMENTASI"
+        android:textColor="#FFFFF0"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        tools:ignore="TextSizeCheck" />
 
-</FrameLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/list_dokumentasi"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+</LinearLayout>
