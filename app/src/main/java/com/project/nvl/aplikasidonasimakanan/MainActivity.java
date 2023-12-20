@@ -5,12 +5,11 @@ import android.util.Log;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.PopupMenu;
+import android.widget.ImageButton;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
-import android.widget.ImageButton;
-
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class MainActivity extends AppCompatActivity implements BottomNavigationView.OnItemSelectedListener {
@@ -54,7 +53,7 @@ public class MainActivity extends AppCompatActivity implements BottomNavigationV
         return loadFragment(fragment);
     }
 
-    private void showPopupMenu(View view) {
+    public void showPopupMenu(View view) {
         PopupMenu popupMenu = new PopupMenu(MainActivity.this, view);
         popupMenu.getMenuInflater().inflate(R.menu.main_menu, popupMenu.getMenu());
 

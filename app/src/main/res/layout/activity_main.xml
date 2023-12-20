@@ -15,7 +15,16 @@
         app:layout_constraintBottom_toTopOf="@id/navigationBot"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"/>
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageButton
+            android:id="@+id/btnPopupMenu"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_margin="16dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:src="@drawable/ic_menu" />
+    </FrameLayout>
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/navigationBot"
@@ -27,13 +36,4 @@
         app:menu="@menu/bottom_menu"
         tools:ignore="VisualLintBottomNav" />
 
-    <ImageButton
-        android:id="@+id/btnPopupMenu"
-        android:layout_width="48dp"
-        android:layout_height="48dp"
-        android:src="@drawable/ic_menu"
-        android:background="?android:attr/selectableItemBackground"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:layout_margin="16dp"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
